@@ -1,0 +1,345 @@
+/*
+Theme Name:   hello-elementor child theme
+Description:  Schreibe hier eine kurze Beschreibung über dein Child-Theme
+Author:       admin
+Author URL:   https://faulhaber.webcetera.ch
+Template:     hello-elementor
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  hello-elementor-child
+*/
+
+/* Schreibe hier dein eigenes persönliches Stylesheet */
+
+
+
+/***************************
+NAVIGATION
+*************************/
+
+.menu-item-2894 a {
+	margin-bottom: 50px; 
+}
+
+
+.smallmenu a {
+    position: relative;
+    line-height: 25px !important; 
+    font-size: 20px !important;
+}
+
+
+
+
+.elementor-menu-toggle i:before {
+content: “”;
+display: block;
+width: 30px;
+height: 30px;
+background: url(//faulhaber-marketing.ch/wp-content/uploads/2022/08/Faulhaber-Hamburger-Menu.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.elementor-menu-toggle.elementor-active i:before {
+content: “”;
+display: block;
+width: 30px;
+height: 30px;
+background: url(//faulhaber-marketing.ch/wp-content/uploads/2021/03/Faulhaber-Hamburger-Menu-Close.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/***************************
+TABS BEI SERVICES
+*************************/
+
+
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title {
+    display: inline !important;
+}
+
+.elementor-widget-tabs .elementor-tabs-wrapper {
+    overflow: inherit !important;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title {
+    display: inherit;
+    border: 1px #C48468 solid;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+    margin: 10px;
+    padding: 15px 45px;
+}
+
+.elementor-widget-tabs .elementor-tab-content {
+    padding: 50px 10px !important;
+    display: none;
+}
+ 
+.elementor-327 .elementor-element.elementor-element-bad2b02 .elementor-tab-title.elementor-active, .elementor-327 .elementor-element.elementor-element-bad2b02 .elementor-tab-title.elementor-active a {
+      background: #C48468;
+}
+
+.elementor-tab-title:hover {
+      background: #C48468;
+	color:#fff !important;
+} 
+
+.elementor-tab-title.elementor-active {
+ background: #C48468 !important;
+	color:#fff !important;	
+}
+
+.elementor-tab-title {
+    border: #C48468 1px solid !important;
+}
+
+
+.elementor-tab-content {
+	border: none !important;
+}
+
+/******************************
+READER TEASER STARTSEITE
+****************************/
+
+.elementor-post__read-more {
+    opacity: 1.0 !important;
+	background: #fff;
+	border-radius: 25px;
+	padding: 3px 30px 3px 30px;
+	color: #3C3C3C !important;
+	text-decoration: none !important;
+	}
+
+.elementor-post__title {
+    margin-bottom: -16px !important;
+}
+
+
+
+.elementor-post__read-more:hover {
+    opacity: 0.7 !important;
+	}
+
+
+/******************************
+READER TEASER MEDIA CORNER
+****************************/
+
+.simplefilter {
+    text-align: left !important;
+	border-radius: 0px !important;
+	margin: 5px 0px 20px 0px !important;
+   } 
+
+.simplefilter li {
+    background-color: #E4E4E3 !important;
+	color: #3c3c3c !important;
+	font-size: 18px !important;
+	border-radius: 0px !important;
+   }
+
+.snip0047 {
+	font-family: "EB Garamond", Sans-serif !important;
+	font-size: 13px !important;
+	text-transform: none !important;
+	font-weight: 200 !important;
+	color: #E4E4E3 !important;
+	border-radius: 25px !important;
+	margin: 5px 3px 5px 3px !important;
+	padding: 0px 12px !important;	
+}
+
+.snip0047:before {
+  visibility: hidden !important;
+	
+}
+
+.snip0047:hover span {
+    -webkit-transform: translate3d(-0px, 0px, 0px) !important;
+    transform: translate3d(-0px, 0px, 0px) !important;
+    opacity: 0.8; 
+	}
+
+
+.snip0047 span {
+  display: contents !important;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  /*opacity: 0.8;*/
+}
+
+.snip0047:hover {
+    text-decoration: underline !important;
+   } 
+
+.snip0047:active {
+    text-decoration: underline !important;
+    background-color: #E4E4E3 !important;
+} 
+	
+.post-content h2 {
+    font-weight: 500 !important;
+    font-style: italic !important;
+	line-height: 22px !important;
+}
+
+
+.post-module {
+box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15) !important;
+}
+	
+.post-content {
+	padding: 10px 0 0 0 !important;
+}
+
+.date {
+ display: none !important;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: inline !important;
+}
+
+.category {
+    display: none !important;
+}
+
+.bf_read_more_div_1 {
+    text-align: left !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.snip0047 i {
+    display: none !important;
+}
+
+
+.searchTerm {
+    width: 48% !important;
+    display: inline-block !important;
+    padding: 16px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    color: #5D5D5D;
+    margin-left: 13px;
+	background: transparent !important;
+	border:none !important ;
+	border-bottom: 1px solid #5D5D5D !important;
+	border-radius: 0px !important;
+	padding: 0.5rem 0rem !important;
+	-webkit-transition: all .3s !important;
+	-o-transition: all .3s !important;
+	transition: all .3s !important;
+	color: #5D5D5D !important;
+	margin-bottom: 50px !important;
+}
+
+
+.snip0047:active {
+    color: #3c3c3c !important;
+}
+
+.snip0047-634:active {
+		background-color: red !important;
+	}
+			
+
+
+/***************************
+COOKIE BANNER
+*************************/
+#cookie-notice .cn-button {
+    margin: 4px 0 0 10px;
+    border: none;
+    border-radius: 23px;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+    background: #E11C44;
+}
+
+/***************************
+FORMULAR
+*************************/
+
+#form-field-message {
+	border-radius: 0px; 
+}
+
+/***************************
+Hamburguer Menu
+*************************/
+.elementor-menu-toggle__icon--open.eicon-menu-bar {
+  background-color: #3C3C3C !important;
+  padding: 10px !important;
+}
+
+.elementor-menu-toggle__icon--close.eicon-close{
+  background-color: #3C3C3C !important;
+  padding: 10px !important;
+	z-index: 9999 !important;
+}
+
+/***************************
+Media Corner Button
+*************************/
+.elementor-2259 .elementor-element.elementor-element-9b8d735 .elementor-button {
+  background-color: #3C3C3C !important;
+  color: #FFFFFFB8 !important;
+}
+
+/***************************
+Menu Dropdown
+*************************/
+.elementor-2259 .elementor-element.elementor-element-7e4cc0e > .elementor-container {
+	overflow: hidden;
+}
+
+.elementor-2259 .elementor-element.elementor-element-7e4cc0e > .elementor-container > .elementor-column > .elementor-widget-wrap:has(.elementor-active) {
+	background-color:  #3C3C3C !important;
+}
+
+.elementor-nav-menu--dropdown.elementor-nav-menu__container {
+	width: 100vw !important;
+	top: -30px !important;
+	padding-top: 100px !important;
+}
+
+/***************************
+Custom language selector
+*************************/
+
+.elementor-element.elementor-widget.elementor-widget-wpml-language-switcher {
+	right: 50px;
+	width: auto;
+	top: -10px;
+}
+
+.elementor-widget-wpml-language-switcher .wpml-ls-statics-shortcode_actions.wpml-ls.wpml-ls-legacy-list-horizontal .wpml-ls-link {
+	color: #3C3C3C;
+}
+
+/***************************
+Custom DIGID
+*************************/
+
+@media (max-width: 899px){
+	.elementor-reverse-mobile>.elementor-container>:first-child{order: 9!important;}
+	.elementor-reverse-mobile>.elementor-container>:nth-child(2){order: 10!important;}
+}

@@ -4,9 +4,6 @@ const mix = require('laravel-mix');
 mix
   .setResourceRoot('./')
   .setPublicPath('dist')
-  .autoload({
-    jquery: ['$', 'window.jQuery', 'jQuery']
-  })
   .sass('style.sass', 'dist')
   .styles(['style.css', 'dist/style.css'], 'dist/style.css')
   .options({
